@@ -1,0 +1,40 @@
+table {border-collapse: collapse; width: 500px; margin: 0 auto; background-color: rgb(207, 243, 230);}
+td, th {border: 1px solid whitesmoke;}
+
+/*подсветка кнопки*/
+.active:hover {background-color: rgb(2, 148, 136); cursor: pointer;}
+
+.title {color: rgb(2, 148, 136); font-size: 21px; display: inline; text-align: center;}
+.titleMonthAndYear {display: inline-block; width: 200px;}
+.calendarPole {margin-top: 20px; height: 170px;}
+input {display: inline-block;}
+
+
+input {background-color: transparent; border-color: transparent; color: rgb(2, 148, 136); font-weight: 700; margin: 0 15px;}
+
+#notOurMonth {
+    color: rgb(255, 255, 255); 
+    
+}
+
+body {margin-top: 80px; text-align: center;}
+
+
+/*стилизуем кнопки выбора*/
+#header {
+    text-align: center;
+    margin-bottom: 20px;
+}
+label {
+    color: rgb(2, 148, 136); 
+    font-size: 20px; 
+    margin: 20px;
+}
+select {
+    border-color: rgb(238, 236, 236);
+}
+
+#ourMonth:hover {
+cursor: pointer;
+background-color: rgb(167, 211, 207);
+}
